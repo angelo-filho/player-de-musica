@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.playersWrapper {
+  display: grid;
+  gap: 32px;
+  grid-template:
+    "lp rpu"
+    "lp rpu"
+    "lp rpd";
+}
